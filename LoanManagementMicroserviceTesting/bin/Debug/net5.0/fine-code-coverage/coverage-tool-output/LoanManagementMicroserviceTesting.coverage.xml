@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9085" branch-rate="0.7" version="1.9" timestamp="1626434729" lines-covered="298" lines-valid="328" branches-covered="7" branches-valid="10">
+  <sources>
+    <source>C:\Users\Mounika\</source>
+  </sources>
+  <packages>
+    <package name="LoanManagementMicroservice" line-rate="0.8284" branch-rate="0.7" complexity="60">
+      <classes>
+        <class name="CollateralsManagement.Models.Collateral_Loan" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Models\Collateral_Loan.cs" line-rate="0" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_LoanID" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CustomerID" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CollateralID" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CollateralValue" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PledgedDate" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Repository.LoanManagementRepository" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Repository\LoanManagementRepository.cs" line-rate="0.9761" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="getLoanDetails" signature="(System.Int32,System.Int32)" line-rate="0.8571" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="55" hits="4" branch="False" />
+                <line number="56" hits="4" branch="False" />
+                <line number="57" hits="4" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="198" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="58" hits="4" branch="False" />
+                <line number="59" hits="4" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(LoanManagementMicroservice.Models.LoanDBContext)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="18" hits="12" branch="False" />
+                <line number="19" hits="12" branch="False" />
+                <line number="20" hits="12" branch="False" />
+                <line number="21" hits="12" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="31" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="22" hits="11" branch="False" />
+                <line number="23" hits="11" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="12" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="55" hits="4" branch="False" />
+            <line number="56" hits="4" branch="False" />
+            <line number="57" hits="4" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="198" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="58" hits="4" branch="False" />
+            <line number="59" hits="4" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="4" branch="False" />
+            <line number="18" hits="12" branch="False" />
+            <line number="19" hits="12" branch="False" />
+            <line number="20" hits="12" branch="False" />
+            <line number="21" hits="12" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="31" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="22" hits="11" branch="False" />
+            <line number="23" hits="11" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="12" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Repository.LoanManagementRepository/&lt;&gt;c" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Repository\LoanManagementRepository.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;saveCollaterals_CashDeposit&gt;b__3_0" signature="(System.Net.Http.HttpRequestMessage,System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="68" hits="16" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;saveCollaterals_RealEstate&gt;b__4_0" signature="(System.Net.Http.HttpRequestMessage,System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="90" hits="16" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="68" hits="16" branch="False" />
+            <line number="90" hits="16" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Repository.LoanManagementRepository/&lt;saveCollaterals_CashDeposit&gt;d__3" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Repository\LoanManagementRepository.cs" line-rate="0.6" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.6" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="4" branch="False" />
+                <line number="66" hits="4" branch="False" />
+                <line number="67" hits="4" branch="False" />
+                <line number="69" hits="4" branch="False" />
+                <line number="70" hits="4" branch="False" />
+                <line number="72" hits="4" branch="False" />
+                <line number="73" hits="4" branch="False" />
+                <line number="74" hits="4" branch="False" />
+                <line number="75" hits="4" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="84" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="64" hits="4" branch="False" />
+            <line number="66" hits="4" branch="False" />
+            <line number="67" hits="4" branch="False" />
+            <line number="69" hits="4" branch="False" />
+            <line number="70" hits="4" branch="False" />
+            <line number="72" hits="4" branch="False" />
+            <line number="73" hits="4" branch="False" />
+            <line number="74" hits="4" branch="False" />
+            <line number="75" hits="4" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Repository.LoanManagementRepository/&lt;saveCollaterals_RealEstate&gt;d__4" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Repository\LoanManagementRepository.cs" line-rate="0.6" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.6" branch-rate="1" complexity="1">
+              <lines>
+                <line number="86" hits="4" branch="False" />
+                <line number="88" hits="4" branch="False" />
+                <line number="89" hits="4" branch="False" />
+                <line number="91" hits="4" branch="False" />
+                <line number="92" hits="4" branch="False" />
+                <line number="93" hits="4" branch="False" />
+                <line number="94" hits="4" branch="False" />
+                <line number="95" hits="4" branch="False" />
+                <line number="96" hits="4" branch="False" />
+                <line number="97" hits="0" branch="False" />
+                <line number="99" hits="0" branch="False" />
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="86" hits="4" branch="False" />
+            <line number="88" hits="4" branch="False" />
+            <line number="89" hits="4" branch="False" />
+            <line number="91" hits="4" branch="False" />
+            <line number="92" hits="4" branch="False" />
+            <line number="93" hits="4" branch="False" />
+            <line number="94" hits="4" branch="False" />
+            <line number="95" hits="4" branch="False" />
+            <line number="96" hits="4" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Models.Collateral_CashDeposits" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Models\Collateral_CashDeposits.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_LoanID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Collateralid" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CollateralType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ownername" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_BankName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentValue" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_InterestRate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DepositAmount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LockPeriod" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="8" branch="False" />
+            <line number="13" hits="8" branch="False" />
+            <line number="14" hits="8" branch="False" />
+            <line number="15" hits="8" branch="False" />
+            <line number="16" hits="8" branch="False" />
+            <line number="17" hits="8" branch="False" />
+            <line number="18" hits="8" branch="False" />
+            <line number="19" hits="8" branch="False" />
+            <line number="20" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Models.Collateral_Realestate" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Models\Collateral_Realestate.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_LoanID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CollateralId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CollateralType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OwnerName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Address" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentValue" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Rate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DepreciationRate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="8" branch="False" />
+            <line number="13" hits="8" branch="False" />
+            <line number="14" hits="8" branch="False" />
+            <line number="15" hits="8" branch="False" />
+            <line number="16" hits="8" branch="False" />
+            <line number="17" hits="8" branch="False" />
+            <line number="18" hits="8" branch="False" />
+            <line number="19" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Models.Customer" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Models\Customer.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_CustomerID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Address" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhoneNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+            <line number="15" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Models.Customer_Loan" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Models\Customer_Loan.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_Loan_ProductID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LoanID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CustomerID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LoanPrincipal" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Tenure" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Interest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EMI" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CollateralID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="22" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="22" branch="False" />
+            <line number="14" hits="22" branch="False" />
+            <line number="15" hits="22" branch="False" />
+            <line number="16" hits="22" branch="False" />
+            <line number="17" hits="22" branch="False" />
+            <line number="18" hits="22" branch="False" />
+            <line number="19" hits="22" branch="False" />
+            <line number="20" hits="22" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Models.Loan" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Models\Loan.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_LoanProducts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaximumLoaneligible" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_interest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Tenure" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TypeofCollateralAccepted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="3" branch="False" />
+            <line number="13" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="16" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Models.LoanDBContext" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Models\LoanDBContext.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_customerLoans" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="41" branch="False" />
+              </lines>
+            </method>
+            <method name="get_customers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="25" branch="False" />
+              </lines>
+            </method>
+            <method name="get_loans" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="25" branch="False" />
+              </lines>
+            </method>
+            <method name="OnModelCreating" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;LoanManagementMicroservice.Models.LoanDBContext&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="24" branch="False" />
+                <line number="12" hits="24" branch="False" />
+                <line number="14" hits="24" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="41" branch="False" />
+            <line number="16" hits="25" branch="False" />
+            <line number="17" hits="25" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="11" hits="24" branch="False" />
+            <line number="12" hits="24" branch="False" />
+            <line number="14" hits="24" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Controllers.LoanManagementController" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Controllers\LoanManagementController.cs" line-rate="0.8234999999999999" branch-rate="1" complexity="4">
+          <methods>
+            <method name="getLoanDetails" signature="(System.Int32,System.Int32)" line-rate="0.75" branch-rate="1" complexity="2">
+              <lines>
+                <line number="28" hits="6" branch="False" />
+                <line number="30" hits="6" branch="False" />
+                <line number="31" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="4" branch="False" />
+                <line number="33" hits="4" branch="False" />
+                <line number="34" hits="4" branch="False" />
+                <line number="37" hits="2" branch="False" />
+                <line number="38" hits="2" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="47" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(LoanManagementMicroservice.Repository.ILoanManagementRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="12" branch="False" />
+                <line number="22" hits="12" branch="False" />
+                <line number="23" hits="12" branch="False" />
+                <line number="24" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="28" hits="6" branch="False" />
+            <line number="30" hits="6" branch="False" />
+            <line number="31" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="32" hits="4" branch="False" />
+            <line number="33" hits="4" branch="False" />
+            <line number="34" hits="4" branch="False" />
+            <line number="37" hits="2" branch="False" />
+            <line number="38" hits="2" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="47" hits="6" branch="False" />
+            <line number="21" hits="12" branch="False" />
+            <line number="22" hits="12" branch="False" />
+            <line number="23" hits="12" branch="False" />
+            <line number="24" hits="12" branch="False" />
+            <line number="20" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Controllers.LoanManagementController/&lt;saveCollaterals_CashDeposit&gt;d__4" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Controllers\LoanManagementController.cs" line-rate="0.7333" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.7333" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="51" hits="6" branch="False" />
+                <line number="53" hits="6" branch="False" />
+                <line number="54" hits="6" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="42" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="55" hits="6" branch="False" />
+                <line number="56" hits="6" branch="False" />
+                <line number="57" hits="6" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="66" hits="6" branch="False" />
+                <line number="67" hits="6" branch="False" />
+                <line number="68" hits="6" branch="False" />
+                <line number="69" hits="6" branch="False" />
+                <line number="71" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="51" hits="6" branch="False" />
+            <line number="53" hits="6" branch="False" />
+            <line number="54" hits="6" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="42" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="55" hits="6" branch="False" />
+            <line number="56" hits="6" branch="False" />
+            <line number="57" hits="6" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="66" hits="6" branch="False" />
+            <line number="67" hits="6" branch="False" />
+            <line number="68" hits="6" branch="False" />
+            <line number="69" hits="6" branch="False" />
+            <line number="71" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroservice.Controllers.LoanManagementController/&lt;saveCollaterals_RealEstate&gt;d__5" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroservice\Controllers\LoanManagementController.cs" line-rate="0.7333" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.7333" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="75" hits="6" branch="False" />
+                <line number="77" hits="6" branch="False" />
+                <line number="78" hits="6" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="42" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="79" hits="6" branch="False" />
+                <line number="80" hits="6" branch="False" />
+                <line number="81" hits="6" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="85" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="90" hits="6" branch="False" />
+                <line number="91" hits="6" branch="False" />
+                <line number="92" hits="6" branch="False" />
+                <line number="93" hits="6" branch="False" />
+                <line number="95" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="75" hits="6" branch="False" />
+            <line number="77" hits="6" branch="False" />
+            <line number="78" hits="6" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="42" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="79" hits="6" branch="False" />
+            <line number="80" hits="6" branch="False" />
+            <line number="81" hits="6" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="85" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="90" hits="6" branch="False" />
+            <line number="91" hits="6" branch="False" />
+            <line number="92" hits="6" branch="False" />
+            <line number="93" hits="6" branch="False" />
+            <line number="95" hits="6" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="LoanManagementMicroserviceTesting" line-rate="0.9937" branch-rate="1" complexity="19">
+      <classes>
+        <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroserviceTesting.Tests" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroserviceTesting\getLoanDetailstest.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="8" branch="False" />
+                <line number="21" hits="8" branch="False" />
+                <line number="22" hits="8" branch="False" />
+                <line number="23" hits="8" branch="False" />
+                <line number="24" hits="8" branch="False" />
+                <line number="25" hits="8" branch="False" />
+                <line number="26" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="RepositoryPassgetLoanDetails" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="2" branch="False" />
+                <line number="33" hits="2" branch="False" />
+                <line number="34" hits="2" branch="False" />
+                <line number="35" hits="2" branch="False" />
+                <line number="36" hits="2" branch="False" />
+                <line number="37" hits="2" branch="False" />
+                <line number="38" hits="2" branch="False" />
+                <line number="39" hits="2" branch="False" />
+                <line number="40" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="RepositoryFailgetLoanDetails" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+                <line number="48" hits="2" branch="False" />
+                <line number="49" hits="2" branch="False" />
+                <line number="50" hits="2" branch="False" />
+                <line number="51" hits="2" branch="False" />
+                <line number="52" hits="2" branch="False" />
+                <line number="53" hits="2" branch="False" />
+                <line number="54" hits="2" branch="False" />
+                <line number="55" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="ControllerTestPassgetLoanDetails" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="60" hits="2" branch="False" />
+                <line number="61" hits="2" branch="False" />
+                <line number="62" hits="2" branch="False" />
+                <line number="63" hits="2" branch="False" />
+                <line number="64" hits="2" branch="False" />
+                <line number="65" hits="2" branch="False" />
+                <line number="66" hits="2" branch="False" />
+                <line number="67" hits="2" branch="False" />
+                <line number="68" hits="2" branch="False" />
+                <line number="69" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="ControllerTestFailgetLoanDetails" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="74" hits="2" branch="False" />
+                <line number="75" hits="2" branch="False" />
+                <line number="76" hits="2" branch="False" />
+                <line number="77" hits="2" branch="False" />
+                <line number="78" hits="2" branch="False" />
+                <line number="79" hits="2" branch="False" />
+                <line number="80" hits="2" branch="False" />
+                <line number="81" hits="2" branch="False" />
+                <line number="83" hits="2" branch="False" />
+                <line number="84" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="8" branch="False" />
+            <line number="21" hits="8" branch="False" />
+            <line number="22" hits="8" branch="False" />
+            <line number="23" hits="8" branch="False" />
+            <line number="24" hits="8" branch="False" />
+            <line number="25" hits="8" branch="False" />
+            <line number="26" hits="8" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="33" hits="2" branch="False" />
+            <line number="34" hits="2" branch="False" />
+            <line number="35" hits="2" branch="False" />
+            <line number="36" hits="2" branch="False" />
+            <line number="37" hits="2" branch="False" />
+            <line number="38" hits="2" branch="False" />
+            <line number="39" hits="2" branch="False" />
+            <line number="40" hits="2" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+            <line number="48" hits="2" branch="False" />
+            <line number="49" hits="2" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="51" hits="2" branch="False" />
+            <line number="52" hits="2" branch="False" />
+            <line number="53" hits="2" branch="False" />
+            <line number="54" hits="2" branch="False" />
+            <line number="55" hits="2" branch="False" />
+            <line number="60" hits="2" branch="False" />
+            <line number="61" hits="2" branch="False" />
+            <line number="62" hits="2" branch="False" />
+            <line number="63" hits="2" branch="False" />
+            <line number="64" hits="2" branch="False" />
+            <line number="65" hits="2" branch="False" />
+            <line number="66" hits="2" branch="False" />
+            <line number="67" hits="2" branch="False" />
+            <line number="68" hits="2" branch="False" />
+            <line number="69" hits="2" branch="False" />
+            <line number="74" hits="2" branch="False" />
+            <line number="75" hits="2" branch="False" />
+            <line number="76" hits="2" branch="False" />
+            <line number="77" hits="2" branch="False" />
+            <line number="78" hits="2" branch="False" />
+            <line number="79" hits="2" branch="False" />
+            <line number="80" hits="2" branch="False" />
+            <line number="81" hits="2" branch="False" />
+            <line number="83" hits="2" branch="False" />
+            <line number="84" hits="2" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroserviceTesting.savecollateralrealestatetest" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroserviceTesting\savecollateralrealestatetest.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="8" branch="False" />
+                <line number="39" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="RepositoryPasssaverealestatecollateral" signature="(LoanManagementMicroservice.Models.Collateral_Realestate)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="2" branch="False" />
+                <line number="44" hits="2" branch="False" />
+                <line number="45" hits="2" branch="False" />
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+                <line number="48" hits="2" branch="False" />
+                <line number="49" hits="2" branch="False" />
+                <line number="50" hits="2" branch="False" />
+                <line number="51" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="RepositoryFailsaverealestatecollateral" signature="(LoanManagementMicroservice.Models.Collateral_Realestate)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="56" hits="2" branch="False" />
+                <line number="57" hits="2" branch="False" />
+                <line number="58" hits="2" branch="False" />
+                <line number="59" hits="2" branch="False" />
+                <line number="60" hits="2" branch="False" />
+                <line number="61" hits="2" branch="False" />
+                <line number="62" hits="2" branch="False" />
+                <line number="63" hits="2" branch="False" />
+                <line number="64" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="ControllerTestPasssaverealestateCollateral" signature="(LoanManagementMicroservice.Models.Collateral_Realestate)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="69" hits="2" branch="False" />
+                <line number="71" hits="2" branch="False" />
+                <line number="72" hits="2" branch="False" />
+                <line number="73" hits="2" branch="False" />
+                <line number="74" hits="2" branch="False" />
+                <line number="75" hits="2" branch="False" />
+                <line number="76" hits="2" branch="False" />
+                <line number="77" hits="2" branch="False" />
+                <line number="78" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="ControllerTestFailsaverealestateCollateral" signature="(LoanManagementMicroservice.Models.Collateral_Realestate)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="83" hits="2" branch="False" />
+                <line number="84" hits="2" branch="False" />
+                <line number="85" hits="2" branch="False" />
+                <line number="86" hits="2" branch="False" />
+                <line number="87" hits="2" branch="False" />
+                <line number="88" hits="2" branch="False" />
+                <line number="89" hits="2" branch="False" />
+                <line number="90" hits="2" branch="False" />
+                <line number="91" hits="2" branch="False" />
+                <line number="92" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="8" branch="False" />
+            <line number="39" hits="8" branch="False" />
+            <line number="43" hits="2" branch="False" />
+            <line number="44" hits="2" branch="False" />
+            <line number="45" hits="2" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+            <line number="48" hits="2" branch="False" />
+            <line number="49" hits="2" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="51" hits="2" branch="False" />
+            <line number="56" hits="2" branch="False" />
+            <line number="57" hits="2" branch="False" />
+            <line number="58" hits="2" branch="False" />
+            <line number="59" hits="2" branch="False" />
+            <line number="60" hits="2" branch="False" />
+            <line number="61" hits="2" branch="False" />
+            <line number="62" hits="2" branch="False" />
+            <line number="63" hits="2" branch="False" />
+            <line number="64" hits="2" branch="False" />
+            <line number="69" hits="2" branch="False" />
+            <line number="71" hits="2" branch="False" />
+            <line number="72" hits="2" branch="False" />
+            <line number="73" hits="2" branch="False" />
+            <line number="74" hits="2" branch="False" />
+            <line number="75" hits="2" branch="False" />
+            <line number="76" hits="2" branch="False" />
+            <line number="77" hits="2" branch="False" />
+            <line number="78" hits="2" branch="False" />
+            <line number="83" hits="2" branch="False" />
+            <line number="84" hits="2" branch="False" />
+            <line number="85" hits="2" branch="False" />
+            <line number="86" hits="2" branch="False" />
+            <line number="87" hits="2" branch="False" />
+            <line number="88" hits="2" branch="False" />
+            <line number="89" hits="2" branch="False" />
+            <line number="90" hits="2" branch="False" />
+            <line number="91" hits="2" branch="False" />
+            <line number="92" hits="2" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="LoanManagementMicroserviceTesting.savecollateralscashdeposittest" filename="Downloads\Collateral_loan Risk\LoanManagementMicroservice\LoanManagementMicroserviceTesting\savecollateralscashdeposittest.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="8" branch="False" />
+                <line number="38" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="RepositoryPasssavecashcollateral" signature="(LoanManagementMicroservice.Models.Collateral_CashDeposits)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="2" branch="False" />
+                <line number="43" hits="2" branch="False" />
+                <line number="44" hits="2" branch="False" />
+                <line number="45" hits="2" branch="False" />
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+                <line number="48" hits="2" branch="False" />
+                <line number="49" hits="2" branch="False" />
+                <line number="50" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="RepositoryFailsavecashcollateral" signature="(LoanManagementMicroservice.Models.Collateral_CashDeposits)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="2" branch="False" />
+                <line number="56" hits="2" branch="False" />
+                <line number="57" hits="2" branch="False" />
+                <line number="58" hits="2" branch="False" />
+                <line number="59" hits="2" branch="False" />
+                <line number="60" hits="2" branch="False" />
+                <line number="61" hits="2" branch="False" />
+                <line number="62" hits="2" branch="False" />
+                <line number="63" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="ControllerTestPasssavecashCollateral" signature="(LoanManagementMicroservice.Models.Collateral_CashDeposits)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="68" hits="2" branch="False" />
+                <line number="69" hits="2" branch="False" />
+                <line number="70" hits="2" branch="False" />
+                <line number="71" hits="2" branch="False" />
+                <line number="72" hits="2" branch="False" />
+                <line number="73" hits="2" branch="False" />
+                <line number="74" hits="2" branch="False" />
+                <line number="75" hits="2" branch="False" />
+                <line number="76" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="ControllerTestFailsavecashCollateral" signature="(LoanManagementMicroservice.Models.Collateral_CashDeposits)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="81" hits="2" branch="False" />
+                <line number="82" hits="2" branch="False" />
+                <line number="83" hits="2" branch="False" />
+                <line number="84" hits="2" branch="False" />
+                <line number="85" hits="2" branch="False" />
+                <line number="86" hits="2" branch="False" />
+                <line number="87" hits="2" branch="False" />
+                <line number="88" hits="2" branch="False" />
+                <line number="89" hits="2" branch="False" />
+                <line number="90" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="8" branch="False" />
+            <line number="38" hits="8" branch="False" />
+            <line number="42" hits="2" branch="False" />
+            <line number="43" hits="2" branch="False" />
+            <line number="44" hits="2" branch="False" />
+            <line number="45" hits="2" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+            <line number="48" hits="2" branch="False" />
+            <line number="49" hits="2" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="55" hits="2" branch="False" />
+            <line number="56" hits="2" branch="False" />
+            <line number="57" hits="2" branch="False" />
+            <line number="58" hits="2" branch="False" />
+            <line number="59" hits="2" branch="False" />
+            <line number="60" hits="2" branch="False" />
+            <line number="61" hits="2" branch="False" />
+            <line number="62" hits="2" branch="False" />
+            <line number="63" hits="2" branch="False" />
+            <line number="68" hits="2" branch="False" />
+            <line number="69" hits="2" branch="False" />
+            <line number="70" hits="2" branch="False" />
+            <line number="71" hits="2" branch="False" />
+            <line number="72" hits="2" branch="False" />
+            <line number="73" hits="2" branch="False" />
+            <line number="74" hits="2" branch="False" />
+            <line number="75" hits="2" branch="False" />
+            <line number="76" hits="2" branch="False" />
+            <line number="81" hits="2" branch="False" />
+            <line number="82" hits="2" branch="False" />
+            <line number="83" hits="2" branch="False" />
+            <line number="84" hits="2" branch="False" />
+            <line number="85" hits="2" branch="False" />
+            <line number="86" hits="2" branch="False" />
+            <line number="87" hits="2" branch="False" />
+            <line number="88" hits="2" branch="False" />
+            <line number="89" hits="2" branch="False" />
+            <line number="90" hits="2" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
